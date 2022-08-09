@@ -1,0 +1,134 @@
+<ActorTemplates>
+	<ActorTemplate Alpha="1" SelectedRingSize="1" TextHeight="0" IsShowShadow="true" SoundName1="" MinDistance="1" WoundAngle="25" SoundFileNum="0" SoundName4="" Volume="0.8" SoundName5="" WoundBone="" MaxDistance="16" SoundName2="" SoundName3="" IntervalTime="2" AttackScale="1" Originalscale="1 1 1" Skeleton="g2035_battaery_3.skel" name="111.actor">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" MasterName="body" SlaveName="1" EdgeColor="1 1 1 1">
+				<Skin LocalAlpha="1" OverlayColor="1 1 1 1" UseBloom="false" SpecularStrength="1" UseOriginalcolor="false" UseReflect="false" SpecularCoef="0.15" UseTransparentNearestSlice="false" MeshName="g2035_battaery_3.skin" EdgeColor="1.0 0 0 1.0" LocalBrightnessScale="1" DiscardAlpha="0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" SpecularColor="1.0 1.0 1.0 1.0" UVSpeed="0 0" UseOverlayColorReplaceMode="false" UseEdge="false" type_name="g2035_battaery_3"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" MasterName="body" SlaveName="2" EdgeColor="1 1 1 1"/>
+		</BodyParts>
+		<Anims>
+			<Anim Name="g2035_battaery_3_die.anim"/>
+			<Anim Name="g2035_battaery_3_idle.anim"/>
+			<Anim Name="g2035_battaery_3_fire.anim"/>
+		</Anims>
+		<Skills>
+			<Skill EnableWound="false" Name="dead" TextMode="0" UserDefineTime="-2">
+				<Effect>
+					<CycleTime value="-1"/>
+					<SocketName value="Bone020"/>
+					<Position_X value="0"/>
+					<type_name value="g2035_fire_trapdamage"/>
+					<FollowActor value="true"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0"/>
+					<TimeScale value="1"/>
+					<FileName value="g2035_fire_trapdamage.effect"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="1.8"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<SocketName value="Bone020"/>
+					<Position_X value="0"/>
+					<type_name value="g2035_fire_trapdamage_smoke"/>
+					<FollowActor value="true"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0"/>
+					<TimeScale value="1"/>
+					<FileName value="g2035_fire_trapdamage_smoke.effect"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+				</Effect>
+				<Animation Name="g2035_battaery_3_die.anim" Channel="" FadeTime="0.01" Length="1.633" Times="1" BeginTime="0" TimeScale="1"/>
+			</Skill>
+			<Skill EnableWound="false" Name="fire" TextMode="0" UserDefineTime="-2">
+				<Effect>
+					<CycleTime value="-1"/>
+					<SocketName value="Bone029(mirrored)"/>
+					<Position_X value="0.449849"/>
+					<type_name value="g2035_gun_flame_violet"/>
+					<FollowActor value="true"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0.14"/>
+					<TimeScale value="1.5"/>
+					<FileName value="g2035_gun_flame_violet.effect"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="0.6"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<SocketName value="Bone032(mirrored)"/>
+					<Position_X value="0.462359"/>
+					<type_name value="g2035_gun_flame_violet"/>
+					<FollowActor value="true"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0.22"/>
+					<TimeScale value="1.5"/>
+					<FileName value="g2035_gun_flame_violet.effect"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<SocketName value="Bone029"/>
+					<Position_X value="0.465898"/>
+					<type_name value="g2035_gun_flame_violet"/>
+					<FollowActor value="true"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0.16"/>
+					<TimeScale value="1.5"/>
+					<FileName value="g2035_gun_flame_violet.effect"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<SocketName value="Bone032"/>
+					<Position_X value="0.474303"/>
+					<type_name value="g2035_gun_flame_violet"/>
+					<FollowActor value="true"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0.2"/>
+					<TimeScale value="1.5"/>
+					<FileName value="g2035_gun_flame_violet.effect"/>
+					<Position_Z value="0"/>
+					<Alpha value="1"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+				</Effect>
+				<Animation Name="g2035_battaery_3_fire.anim" Channel="" FadeTime="0.01" Length="1.033" Times="1" BeginTime="0" TimeScale="1.5"/>
+			</Skill>
+			<Skill EnableWound="false" Name="idle" TextMode="0" UserDefineTime="-2">
+				<Animation Name="g2035_battaery_3_idle.anim" Channel="" FadeTime="0.25" Length="4.233" Times="-1" BeginTime="0" TimeScale="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

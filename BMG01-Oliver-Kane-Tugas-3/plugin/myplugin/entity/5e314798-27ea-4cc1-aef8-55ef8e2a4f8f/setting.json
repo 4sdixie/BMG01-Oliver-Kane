@@ -1,0 +1,138 @@
+{
+  "_clientScript": [],
+  "_serverScript": [],
+  "actorGirlName": "asset/Actor/Red And Black Laser Cannon Monster/g2035_trap_battery_turret_3.actor",
+  "actorName": "asset/Actor/Red And Black Laser Cannon Monster/g2035_trap_battery_turret_3.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 5,
+  "backMoveResetOffsetYaw": true,
+  "beAttackedFeedback": {
+    "fromNpc": true,
+    "fromPlayer": true,
+    "hideSmooth": true,
+    "hideTime": 15
+  },
+  "canClick": false,
+  "canHurtMove": true,
+  "canJump": false,
+  "canMove": false,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 60,
+  "chaseInterval": 10,
+  "checkGroundWhenCollisionMargin": true,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "height": 1.5,
+    "offset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "radius": 0.5,
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "type": "Capsule"
+  },
+  "collision": true,
+  "damage": 10,
+  "damageViewBobbing": [
+    {
+      "count": 2,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 6
+      }
+    },
+    {
+      "count": 4,
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "deathHideTime": 60,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "enableBackMovementAction": true,
+  "equipTrays": [
+    1,
+    2
+  ],
+  "eyeHeight": 1.62,
+  "fallAtSwimming": false,
+  "firstPRVActorName": "asset/Actor/charactor/firstPrvActor/firstPrvActor.actor",
+  "firstPRVHandBoneName": "s_wuqi",
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "FollowWhenCreate": true,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 0,
+  "hideName": false,
+  "homeSize": 4,
+  "hpBarColor": 4294967551.0,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1,
+  "hurtResistantTime": 0,
+  "isAIGoHomePos": true,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 100,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.2,
+  "name": "b8dcd70f-45cc-41c5-bfcb-8dda53ff39ae",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "pushForce": 10,
+  "randomPlayDeadActions": [
+    "die_front"
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfoList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 30,
+      "fullName": "myplugin/5b2badbe-541a-4f47-8034-d4ac09fb1a01",
+      "priority": 0
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 4,
+      "fullName": "myplugin/27b7a75a-cd31-475e-a855-3fec9059004c",
+      "priority": 0
+    }
+  ],
+  "skillInfos": [
+    "myplugin/5b2badbe-541a-4f47-8034-d4ac09fb1a01"
+  ],
+  "stepHeight": 0.6,
+  "textHeight": 2.3,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 0,
+  "undamageable": 0
+}

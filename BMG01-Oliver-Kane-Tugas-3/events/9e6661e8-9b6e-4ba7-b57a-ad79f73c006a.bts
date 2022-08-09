@@ -1,0 +1,4 @@
+PART_TOUCH_ENTITY_BEGIN {
+	GameOver()
+	KickOutPlayer(entity = $obj2)
+}
